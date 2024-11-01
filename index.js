@@ -5,5 +5,10 @@ let printNums = (i) => {
         console.log(x)
     }
 }
+
+setTimeout(5000, () => console.log('Hello'));
+
 let x = 10
 printNums(x)
+
+
